@@ -16,9 +16,9 @@ public class studentdao {
 	 PreparedStatement pst=con.prepareStatement(query);
 	 pst.setInt(1,s1.sId);
 	 pst.setString(2, s1.sName);
-     pst.setString(3, s1.sEmail);
-     pst.setString(4, s1.sPhone); 
-     int res=pst.executeUpdate();
+         pst.setString(3, s1.sEmail);
+         pst.setString(4, s1.sPhone); 
+         int res=pst.executeUpdate();
 	 return res;
 	}
 	
